@@ -11,4 +11,4 @@ The following environment variable can be added to adjust the log spitting behav
 With the default value as period=0, the logs will be flushed non-stop until 1000000 has been flushed.
 If the period is set to 1000, after sending 20000 logs it will pause for 1 second before continuing sending the logs, this can help to suppress the logs per second sent by this testing application.
 
-My built version can be pulled from docker.io/theodor2311/log-spitter:latest.
+My built version can be pulled from [docker.io/theodor2311/log-spitter:latest](https://hub.docker.com/repository/docker/theodor2311/log-spitter).
